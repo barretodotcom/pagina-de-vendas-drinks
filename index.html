@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: Montserrat;
+    }
+
+    body{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+        background-color: red;
+        text-align: center;
+        padding: 1.5%;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .content h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        display: inline-block;
+    }
+
+    .red {
+        font-size: 1.5rem;
+        color: red;
+    }
+    
+    .green {
+        color: rgb(1, 159, 0);
+        font-size: 4.5rem;
+    }
+
+    .text {
+        font-size: .9rem;
+        margin-top: 3% !important;
+        font-family: Raleway;
+    }
+
+    img {
+        width: 50%;
+        margin-top: 5%;
+        border-radius: 12px;
+        box-shadow: 5px 5px 0px 0px rgb(91, 91, 91);
+    }
+
+    .today {
+        font-size: 2.3rem;
+        margin-top: 5%;
+    }
+
+    button {
+        width: 95%;
+        background-color: red;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        border-radius: 5px;
+        padding-block: 5%;
+    }
+
+    .ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-block: 5%;
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        background-color: #393939;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding-block: 10%;
+    }
+
+</style>
+<body>
+    <div class="header">
+        <h1>ATENÇÃO</h1>
+        <h1>Esta super oferta está se encerrando</h1>
+    </div>
+    <div class="content">
+        <h2>
+            30 Drinks infalíveis para impressionar qualquer mulher no <p class="red">primeiro encontro</p>
+        </h2>
+        <p class="text">
+            Tenha acesso a 30 receitas de drinks para criar naquela mulher uma primeira impressão inesquecível
+        </p>
+        <img src="./mock.jpg" alt="imagem-capa-ebook">
+        <h1 class="today">APENAS HOJE</h1>
+        <h1 class="green">R$ 9,99</h1>
+        <a href="https://pay.hotmart.com/X95383077U?off=w2i92xf2&_hi=eyJjaWQiOiIxNjg4OTk4NzA0ODQ0NzA0MjUxNjkzMjEzNTI5NTAwIiwiYmlkIjoiMTY4ODk5ODcwNDg0NDcwNDI1MTY5MzIxMzUyOTUwMCIsInNpZCI6IjExYTIxMGY1N2E1MTQ3YjFhNzM0Y2ZhNDY5MWE4OTM3In0=.1726275556682">
+            <button>LIBERAR RECEITAS</button>
+        </a>
+        <div class="ul">
+            <ul>
+                <li>✅ Compra segura</li>
+                <li>🎯 Satisfação garantida</li>
+                <li>🔒 Privacidade protegida</li>
+            </ul>
+        </div>
+        <div class="footer">
+                <p>Copyright © 2024</p>
+                <p>Todos os direitos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
